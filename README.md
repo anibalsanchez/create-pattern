@@ -4,6 +4,8 @@
 
 A lightweight PHP implementation of the Static Create Pattern using a trait.
 
+`composer require anibalsanchez/create-pattern`
+
 Inspired by [byjg/SingletonPatternPHP](https://github.com/byjg/SingletonPatternPHP)
 
 ## Usage
@@ -34,7 +36,7 @@ $example = Example::getInstance();
 
 ## Install
 
-Just type: `composer install "anibalsanchez/create-pattern"`
+Just type: `composer require anibalsanchez/create-pattern`
 
 ## References
 
