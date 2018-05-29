@@ -41,3 +41,7 @@ Just type: `composer require anibalsanchez/create-pattern`
 ## References
 
 * https://en.wikipedia.org/wiki/Singleton_pattern
+
+## License
+
+The MIT License (MIT)
