@@ -1,15 +1,14 @@
 <?php
 
-/*
-* Copyright (C) 2016 Andrea Gentil & Anibal Sanchez, Extly CB.
-*                    Email: team[at]extly.com
-*
-* The above copyright notice and this permission notice shall be included in all
-* copies or substantial portions of the Software.
-*
-* License  http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
-*
-*/
+/**
+ * anibalsanchez/create-pattern
+ * A lightweight PHP implementation of the Static Create Pattern using a trait.
+ *
+ * @author     Andrea Gentil & Anibal Sanchez <team[at]extly.com>
+ * @copyright  Copyright (C) 2018 Andrea Gentil & Anibal Sanchez, Extly CB.
+ * @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+ */
+
 
 namespace Extly\Infrastructure\Creator;
 
