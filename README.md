@@ -19,6 +19,7 @@ class Example
 {
     // You need to use the trait here
     use \Extly\Infrastructure\Creator\CreatorTrait;
+    use \Extly\Infrastructure\Creator\SingletonTrait;
 
     // Put your code below
 }
