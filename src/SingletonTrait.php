@@ -2,10 +2,10 @@
 
 /*
  * @package     anibalsanchez/create-pattern
- *               A lightweight PHP implementation of the Static Create Pattern using a trait.
+ * @description A lightweight PHP implementation of the Static Create Pattern using a trait.
  *
  * @author      Extly, CB. <team@extly.com>
- * @copyright   Copyright (c)2012-2022 Extly, CB. All rights reserved.
+ * @copyright   Copyright (c)2012-2025 Extly, CB. All rights reserved.
  * @license     https://www.opensource.org/licenses/mit-license.html  MIT License
  *
  * @see         https://www.extly.com
@@ -17,16 +17,15 @@ trait SingletonTrait
 {
     private static $instance = null;
 
-    final public static function getInstance()
+    final public static function getInstance(...$args)
     {
         if (null !== self::$instance) {
             return self::$instance;
         }
 
         $class = static::class;
-        $args = \func_get_args();
-        $reflect = new \ReflectionClass($class);
-        self::$instance = $reflect->newInstanceArgs($args);
+        $reflectionClass = new \ReflectionClass($class);
+        self::$instance = $reflectionClass->newInstanceArgs($args);
 
         return self::$instance;
     }

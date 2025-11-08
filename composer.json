@@ -1,6 +1,6 @@
 {
   "name": "anibalsanchez/create-pattern",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "A lightweight PHP implementation of the Static Create Pattern using a trait.",
   "authors": [
     {
@@ -14,7 +14,7 @@
     }
   },
   "require": {
-    "php": "^7.3 || ^8.0"
+    "php": "^7.4 || ^8.0"
   },
   "license": "MIT"
 }
